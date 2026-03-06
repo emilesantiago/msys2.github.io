@@ -99,3 +99,4 @@ Do you want to delete it? [Y/n]
 To get back to a working state you can run `pacman-key --refresh-keys`, which updates the package maintainer keys you already have installed.
 
 In case that doesn't help because a new key is required, you can do a partial upgrade of the keyring to get the missing key, followed by a full upgrade: `pacman -Sy msys2-keyring; pacman -Suy`
+
